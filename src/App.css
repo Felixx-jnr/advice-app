@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
 }
 
@@ -9,17 +10,19 @@
   height: 100%;
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../../felix-portfolio/src/assets/be2.png');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
 .card{
   background-color: whitesmoke;
   width: 40%;
-  height: 20%;
+  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,10 +35,11 @@
 .heading{
   display: flex;
   align-items: center;
-  height: 580px;
+  height: 550px;
 }
 
 .button {
+  padding: 2%;
   position: relative;
   outline: none;
   text-decoration: none;
